@@ -1,0 +1,45 @@
+body,
+html {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url('../images/web-1012467__340.webp') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-bg{
+    /* background-color: linear-gradient(left, #6a11cb, #2575fc); */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(132, 45, 179,1) 100%);
+    /* background-color: rgb(132, 45, 179); */
+    /* background-color: rgb(121, 82, 179); */
+}
+.header-hr{
+    color: white;
+    max-width: 65px;
+    height: 2px !important;
+    margin: auto;
+}
+.buffer{
+    height: 10rem;
+}
+.btn-header{
+    background-color: rgba(0, 255, 255, 0.9);
+    border-radius: 300px;
+    border-color: rgba(0, 255, 255, 0.9);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-header:hover{
+    background-color: rgba(0, 255, 255, 0.7); 
+    height: 50px;  
+    border-width: 4px;
+    border-color: rgba(0, 255, 255, 0.4);
+}
